@@ -1,0 +1,31 @@
+/*google font css code
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+.navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+.nav-item {
+  font-family: 'Lato', sans-serif;
+}
+.display-4 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+.jumbotron button {
+  font-family: 'Lato', sans-serif;
+}
+
+.sect-title {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.lead, .statement {
+  font-family: 'Lato', serif;
+}
+
+footer p {
+  font-family: 'Lato', sans-serif;
+}
