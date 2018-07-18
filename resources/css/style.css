@@ -1,5 +1,4 @@
 /*google font css code
-font-family: 'Libre Baskerville', serif;
 font-family: 'Lato', sans-serif;
 */
 
@@ -12,6 +11,8 @@ html {
 body {
   color: rgb(28, 17, 10);
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: rgba(205, 207, 202, 0.1);
 }
 .container {
   max-width: 960px;
@@ -19,7 +20,7 @@ body {
 }
 
   h1 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lato', sans-serif;
   }
 
 span {
@@ -29,12 +30,14 @@ span {
 /*header styles */
 
 header {
-  background-color: rgba(95, 72, 66, 0.3);
-  height: 5rem;
+  /*background-color: rgba(95, 72, 66, 0.1);*/
+  /*background-color: rgba(205, 207, 202, 0.1);*/
+  height: 4rem;
   /*position: fixed;
   z-index: 1;*/
   width: 100%;
-  border-bottom: 1px solid rgb(28, 17, 10);
+  border-bottom: 2px inset rgba(95, 72, 66, 0.3);
+  /*rgb(28, 17, 10);*/
 }
 
 nav {
@@ -53,6 +56,7 @@ nav {
 
 .logo h1 {
   font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .nav-img {
@@ -62,20 +66,27 @@ nav {
 }
 
 .nav-links ul {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .nav-links li {
-  display: inline-block;
+display: inline-block;
 align-items: center;
-margin: .5rem;
+/*margin: .5rem;*/
+padding: 0.5rem 0.75rem;
+}
 
+ul li:last-child {
+  border-radius: 4px;
+  border: 2px inset rgba(95, 72, 66, 0.3);
+  padding: 0.5rem 0.75rem;
 }
 
 li a {
 align-items: center;
 text-decoration: none;
+font-weight: 300;
 color: rgb(28, 17, 10);
 }
 
@@ -86,54 +97,81 @@ li a:hover {
 /*main-banner syles*/
 
 .main-banner {
-/*  background-image: url("../images/bkg-2.jpg");
+background-image: url("../images/communication.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;*/
-  background-color: rgba(91, 108,93, 0.7);
+  background-size: cover;
+  /*  background-color: rgba(91, 108,93, 0.7);*/
+  /*position: relative;
+  top: 5rem;*/
   height: 25rem;
   width: 100%;
+  border-bottom: 2px inset rgba(95, 72, 66, 0.3);
 }
-
-
 
 .headline {
-  border: 0.1px solid black;
+  border: 2px inset rgba(95, 72, 66, 0.3);
+  border-radius: 4px;
   position: relative;
   top: 7rem;
-  width: 20rem;
+  width: 21rem;
   padding: 2rem 3rem;
-  background-color: rgba(95, 72, 66, 0.5);
+  background-color: rgba(95, 72, 66, 0.1);
 }
-
 
 .headline h1 {
   font-size: 2rem;
   padding-bottom: .5rem;
+  font-weight: 400;
+  color: rgb(28, 17, 10);
 }
 
 .headline h2 {
   font-size: 1.1rem;
   padding-bottom: .5rem;
-  font-weight: bold;
+  font-weight: 300;
 }
 
+.headline button {
+  border-radius: 4px;
+  width: 5rem;
+  border: 2px inset rgba(95, 72, 66, 0.3);
+  background-color: rgba(95, 72, 66, 0.0);
+
+}
+
+ .headline a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgb(28, 17, 10);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
+}
 /*company statement styles*/
 .co-state {
-  border: 1px solid black;
-  height: 5rem;
+  /*border: 1px solid black;*/
+  /*position: relative;
+  top: 5rem;*/
+  height: 15rem;
   width: 100%;
 }
 
 .co-state p {
   padding-top: 1.5rem;
+  position: relative;
+  top: 3rem;
 }
 
 /*footer styles*/
 
 footer {
+  /*position: relative;
+  top: 5rem;*/
   height: 5rem;
   width: 100%;
+  border-top: 2px inset rgba(95, 72, 66, 0.3);
+  /*background-color: rgba(95, 72, 66, 0.1);*/
 }
 
 .copyright p {
