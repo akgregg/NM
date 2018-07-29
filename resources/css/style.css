@@ -71,8 +71,8 @@ nav {
   height: 5rem;
   width: 6rem;
   margin: 0;
-  border-right: 2px solid rgba(95, 72, 66, 0.3);
-  border-left: 2px solid rgba(95, 72, 66, 0.3);
+  /*border-right: 2px solid rgba(95, 72, 66, 0.3);
+  border-left: 2px solid rgba(95, 72, 66, 0.3);*/
 }
 
 .nav-links ul {
@@ -177,15 +177,18 @@ background-image: url("../images/communication.jpg");
 /*footer styles*/
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  /*align-items: center;*/
   position: relative;
   top: 5rem;
   height: 5rem;
   width: 100%;
   border-top: 2px inset rgba(95, 72, 66, 0.3);
   /*background-color: rgba(95, 72, 66, 0.1);*/
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
 }
 
 .copyright p {
@@ -198,8 +201,66 @@ footer {
 
 }
 
+/*About Styles*/
 
 
+/*Services Styles*/
+.services-main-content {
+  position: relative;
+  top: 5rem;
+}
+
+.services-header {
+  height: 10rem;
+  width: 100%;
+  background-color: rgba(91, 108,93, 0.1);
+}
+
+.services-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 0.5rem;
+}
+
+.services-header h2 {
+  padding-top: 5rem;
+  padding-right: 0.5rem;
+  float: right;
+}
+.core-services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services {
+  display: inline-block;
+  height: 20rem;
+  width: 40%;
+  border-left: 1px solid rgb(247, 150, 70);
+  margin: 2rem;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+ul.a {
+  list-style-type: disc;
+
+
+}
+
+ul.a li {
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+
+}
 /* old bootstrap sytles
 .navbar-brand {
   font-family: 'Libre Baskerville', serif;
