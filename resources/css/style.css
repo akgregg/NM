@@ -1,6 +1,5 @@
 /*google font css code
-font-family: 'Roboto', sans-serif; 300| 400 | 500
-font-family: 'Cormorant Garamond', serif; 500 | 700
+ffont-family: 'Cormorant Garamond', serif;
 */
 
 /* universal styles */
@@ -11,7 +10,7 @@ html {
 
 body {
   color: rgb(28, 17, 10);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   background-color: white;
   /*rgba(205, 207, 202, 0.1);*/
@@ -22,8 +21,7 @@ body {
 }
 
   h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
+  font-weight: 700;
   }
 
 span {
@@ -51,8 +49,9 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-/*  border: 1px solid black;*/
   align-items: center;
+/*  border: 1px solid black;*/
+
 }
 
 /*.logo {
@@ -60,19 +59,29 @@ nav {
   align-items: center;
 /*  border: 1px solid black;
   justify-content: space-between;
-}
-
-/*.logo h1 {
-  font-size: 1.25rem;
-  font-weight: 700;
 }*/
 
-.nav-img {
+.logo h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 1.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(28, 17, 10);
+}
+
+/*.nav-img {
   height: 5rem;
   width: 6rem;
   margin: 0;
   /*border-right: 2px solid rgba(95, 72, 66, 0.3);
-  border-left: 2px solid rgba(95, 72, 66, 0.3);*/
+  border-left: 2px solid rgba(95, 72, 66, 0.3);
+}*/
+
+.nav-links {
+  padding-top: 1.5rem;
 }
 
 .nav-links ul {
@@ -85,6 +94,7 @@ display: inline-block;
 align-items: center;
 /*margin: .5rem;*/
 padding: 0.5rem 0.75rem;
+font-size: 1.2rem;
 }
 
 .nav-links li:last-child {
@@ -96,8 +106,7 @@ padding: 0.5rem 0.75rem;
 li a {
 align-items: center;
 text-decoration: none;
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
+font-weight: 500;
 color: rgb(28, 17, 10);
 }
 
@@ -126,7 +135,7 @@ background-image: url("../images/communication.jpg");
   position: relative;
   top: 7rem;
   width: 21rem;
-  padding: 2rem 3rem;
+  padding: 3rem;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -140,45 +149,86 @@ background-image: url("../images/communication.jpg");
 .headline h2 {
   font-size: 1.1rem;
   padding-bottom: .5rem;
-  font-weight: 300;
+  font-weight: 400;
+  text-align: center;
 }
 
-.headline button {
+/*.headline button {
   border-radius: 4px;
   width: 5rem;
   border: 2px inset rgba(95, 72, 66, 0.3);
   background-color: rgba(95, 72, 66, 0.0);
-
 }
 
  .headline a {
   text-decoration: none;
   font-size: 1.1rem;
   color: rgb(28, 17, 10);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+}*/
 
-}
 /*company statement styles*/
+
+.company-state {
+  /*border: 1px solid black;
+  position: relative;
+  top: 5rem;*/
+  display: flex;
+  flex-wrap: wrap;
+  height: 20rem;
+  width: 100%;
+}
 .co-state {
   /*border: 1px solid black;*/
   position: relative;
   top: 5rem;
-  height: 15rem;
+  height: 10rem;
   width: 100%;
 }
 
 .co-state p {
   padding-top: 1.5rem;
-  position: relative;
-  top: 3rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.homepage-sup-content {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  border-top: 1px solid rgb(247, 150, 70);
+  width: 100%;
+}
+
+.sup-content {
+  height: 5rem;
+  width: 50%;
+  margin-top: 1rem;
+  /*border: 1px solid black;*/
+}
+
+.sup-content h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.sup-content a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(89, 201, 165);
+  /*border: 1px solid black;*/
+}
+
+.sup-content a:hover {
+  text-decoration: underline;
+  color: rgb(28, 17, 10);
 }
 
 /*footer styles*/
 
 footer {
-  position: relative;
-  top: 5rem;
+  /*position: relative;
+  top: 5rem;*/
   height: 5rem;
   width: 100%;
   border-top: 2px inset rgba(95, 72, 66, 0.3);
@@ -198,7 +248,6 @@ footer {
 .fa-linkedin  {
   color: black;
   padding-top: 0.5rem;
-
 }
 
 /*About Styles*/
@@ -244,7 +293,7 @@ footer {
 
 .services h3 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Cormorant Garamond', serif;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -252,15 +301,14 @@ footer {
 
 ul.a {
   list-style-type: disc;
-
-
 }
 
 ul.a li {
   padding-bottom: 1rem;
   margin-left: 2rem;
-
 }
+
+
 /* old bootstrap sytles
 .navbar-brand {
   font-family: 'Libre Baskerville', serif;
