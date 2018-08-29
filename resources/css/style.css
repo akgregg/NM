@@ -33,18 +33,22 @@ span {
   font-size: 0.8rem;
 }
 
-.about-main-content, .services-main-content, .people-main-content   {
+.about-main-content, .services-main-content, .people-main-content,
+.projects-main-content, .contact-main-content   {
   position: relative;
   top: 5rem;
 }
 
-.about-header, .services-header, .people-header  {
+.about-header, .services-header, .people-header,
+.projects-header, .contact-header  {
   height: 10rem;
   width: 100%;
   background-color: rgba(91, 108,93, 0.1);
 }
 
-.homepage-sup-content, .about-sup-content, .people-sup-content {
+
+.homepage-sup-content, .about-sup-content, .people-sup-content,
+ .projects-sup-content, .contact-sup-content {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgb(247, 150, 70);
@@ -236,6 +240,7 @@ background-image: url("../images/communication.jpg");
   padding-top: 1.5rem;
   font-size: 1.25rem;
   font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
 .homepage-sup-content {
@@ -285,11 +290,19 @@ footer {
 }
 
 .about-header h2 {
-  padding-top: 5rem;
-  padding-right: 0.5rem;
+  margin-top: 5rem;
+  padding: 0.5rem;
   float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+
 }
 
+.about-header {
+  background-image: url("../images/aboutnm-pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .about-main-article {
   padding: 0.5rem;
 }
@@ -334,9 +347,19 @@ font-weight: 300;
 }
 
 .services-header h2 {
-  padding-top: 5rem;
-  padding-right: 0.5rem;
+  margin-top: 5rem;
+  padding: 0.5rem;
   float: right;
+}
+
+.services-header {
+background-image: linear-gradient(to right, rgba(255,255,255,0.4),
+rgba(255,255,255,0.4)),
+url("../images/services.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 .core-services {
   display: flex;
@@ -442,6 +465,146 @@ ul.a li {
   /*border-left: 1px solid rgb(247, 150, 70);*/
   padding-left: 0.5rem;
   padding-bottom: 1.5rem;
+}
+
+/*Projects Styles*/
+.projects-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.projects-header h2 {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.projects-header {
+  background-image: url("../images/projectpic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.projects-main-article {
+  display: flex;
+  flex-direction: column;
+}
+/*.projects-main-article {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 10% repeat(5, 1fr)
+}
+
+
+.projects-main-title {
+  grid-area: 1 / 1 / span 1 / span 12;
+}*/
+
+.projects-main-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects-main-title p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+.projects-secondary-article {
+display: flex;
+flex-direction: column;
+margin-bottom: 2rem;
+}
+/*.projets-secondary-article {
+  grid-area: 2 / 1 / span 5 / span 12;
+}
+
+.projects-shell {
+  display: grid;
+}*/
+
+.projects-shell {
+  display: flex;
+  margin: 0.5rem;
+  /*border-bottom: 1px solid rgb(247, 150, 70);*/
+
+}
+.projects-img {
+  background-color: grey;
+  width: 25%;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.projects-description {
+  padding: 0.5rem;
+  width: 75%;
+}
+.projects-description h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  /*margin-bottom: 0.5rem;*/
+}
+
+.projects-description h4 {
+  margin-bottom: 0.5rem;
+}
+
+.projects-description h3 {
+  margin-top: 0.5rem;
+}
+.projects-description a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: rgb(89, 201, 165);
+}
+
+/*Contact Styles*/
+.contact-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.contact-header h2 {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.contact-header {
+  background-image: url("../images/contact-nm-pic.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+
+.contact-main-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-main-title p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.contact-coordinates {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-coordinates h3 {
+  font-size: 1.2rem;
 }
 /* old bootstrap sytles
 .navbar-brand {
