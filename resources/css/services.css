@@ -1,0 +1,53 @@
+
+/*Services Styles*/
+.services-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.services-header h2 {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  float: right;
+}
+
+.services-header {
+background-image: linear-gradient(to right, rgba(255,255,255,0.4),
+rgba(255,255,255,0.4)),
+url("../images/services.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.core-services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.services {
+  display: inline-block;
+  height: auto;
+  width: 40%;
+  border-left: 1px solid rgb(247, 150, 70);
+  margin: 2rem;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+ul.a {
+  list-style-type: disc;
+}
+
+ul.a li {
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+}

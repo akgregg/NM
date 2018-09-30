@@ -1,0 +1,56 @@
+/*About Styles*/
+.about-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.about-header h2 {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.about-header {
+  background-image: url("../images/aboutnm-pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-main-article {
+  padding: 0.5rem;
+}
+
+.about-main-article p {
+padding-top: 1.5rem;
+font-size: 1.1rem;
+font-weight: 300;
+text-align: justify;
+letter-spacing: 0.05rem;
+
+}
+
+.about-sub-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-article {
+  height: 10rem;
+  width: 50%;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+.sub-article h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sub-article p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}

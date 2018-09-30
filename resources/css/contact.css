@@ -1,0 +1,49 @@
+/*Contact Styles*/
+.contact-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.contact-header h2 {
+  margin-top: 5rem;
+  padding: 0.5rem;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.contact-header {
+  background-image: url("../images/contact-nm-pic.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+
+.contact-main-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-main-title p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  text-align: justify;
+}
+
+.contact-main-article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20rem;
+}
+.contact-coordinates {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-coordinates h3 {
+  font-size: 1.5rem;
+}

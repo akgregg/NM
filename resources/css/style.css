@@ -1,5 +1,5 @@
 /*google font css code
-ffont-family: 'Cormorant Garamond', serif;
+font-family: 'Cormorant Garamond', serif;
 */
 
 /* universal styles */
@@ -37,6 +37,8 @@ span {
 .projects-main-content, .contact-main-content   {
   position: relative;
   top: 5rem;
+
+  /*margin-bottom: 5rem;*/
 }
 
 .about-header, .services-header, .people-header,
@@ -55,6 +57,7 @@ span {
   width: 100%;
   height: 5rem;
   margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .sup-content {
@@ -113,7 +116,7 @@ nav {
 }*/
 
 .logo h1 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding-top: 1.5rem;
 }
@@ -225,22 +228,23 @@ background-image: url("../images/communication.jpg");
   top: 5rem;*/
   display: block;
   /*flex-wrap: wrap;*/
-  height: 10rem;
+  height: auto;
   width: 100%;
 }
 .co-state {
 /*  border: 1px solid black;*/
   position: relative;
   top: 5rem;
-  height: 10rem;
+  height: auto;
   width: 100%;
 }
 
 .co-state p {
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
+  text-align: center;
 }
 
 .homepage-sup-content {
@@ -270,342 +274,37 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
+  align-items: center;
+  padding-top: 1.25rem;
 }
 
 .copyright p {
-  padding-top: 3.5rem;
-}
-
-.fa-linkedin  {
-  color: black;
-  padding-top: 0.5rem;
-}
-
-/*About Styles*/
-.about-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
-
-.about-header h2 {
-  margin-top: 5rem;
-  padding: 0.5rem;
-  float: right;
-  background-color: rgba(255, 255, 255, 0.5);
+/*  padding-top: 3.5rem;*/
 
 }
 
-.about-header {
-  background-image: url("../images/aboutnm-pic.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.about-main-article {
-  padding: 0.5rem;
-}
-
-.about-main-article p {
-padding-top: 1.5rem;
-font-size: 1.25rem;
-font-weight: 300;
-}
-
-.about-sub-article {
+.social-media {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.sub-article {
-  height: 10rem;
-  width: 50%;
-  margin-top: 1.5rem;
-  padding: 0.5rem;
+.social-media p {
+  padding-right: .25rem;
 }
-
-.sub-article h3 {
-  font-weight: 500;
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.sub-article p {
-  font-weight: 300;
-  font-size: 1.1rem;
+.fa-facebook, .fa-linkedin, .fa-twitter-square  {
+  color: rgb(28, 17, 10);
+  padding: 0.25rem;
 }
 
 
 
 
-/*Services Styles*/
-.services-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
-
-.services-header h2 {
-  margin-top: 5rem;
-  padding: 0.5rem;
-  float: right;
-}
-
-.services-header {
-background-image: linear-gradient(to right, rgba(255,255,255,0.4),
-rgba(255,255,255,0.4)),
-url("../images/services.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
-}
-.core-services {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 5rem;
-}
-
-.services {
-  display: inline-block;
-  height: auto;
-  width: 40%;
-  border-left: 1px solid rgb(247, 150, 70);
-  margin: 2rem;
-}
-
-.services h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-}
-
-ul.a {
-  list-style-type: disc;
-}
-
-ul.a li {
-  padding-bottom: 1rem;
-  margin-left: 2rem;
-}
-
-/* people sytles */
-.people-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
-
-.people-header h2 {
-  padding-top: 5rem;
-  padding-right: 0.5rem;
-  float: right;
-}
-
-.people-main-article {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  /*border-top: 1px solid rgb(247, 150, 70);*/
-}
-
-.people-img {
-  height: auto;
-  width: 30%;
-  text-align: left;
-  /*border-left: 1px solid rgb(247, 150, 70);
-  padding-left: 0.5rem;*/
-}
-
-.people {
-  height: 10rem;
-  width: 10rem;
-  border: thin solid rgba(95, 72, 66, 0.3);
-  margin-bottom: 0.5rem;
-  margin-left: 0.5rem;
-}
-
-.people-img h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding-bottom: 0.3rem;
-}
-
-.people-paragraph {
-  height: auto;
-  width: 70%;
-  /*border-left: 1px solid rgb(247, 150, 70);*/
-  padding-left: 0.5rem;
-}
-
-.people-secondary-article {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-}
-
-.associates-header {
-  height: auto;
-  width: 30%;
-  text-align: left;
-}
-
-.associates-header h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-.associates-paragraph {
-  height: auto;
-  width: 70%;
-  /*border-left: 1px solid rgb(247, 150, 70);*/
-  padding-left: 0.5rem;
-  padding-bottom: 1.5rem;
-}
-
-/*Projects Styles*/
-.projects-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
-
-.projects-header h2 {
-  margin-top: 5rem;
-  padding: 0.5rem;
-  float: right;
-  background-color: rgba(255, 255, 255, 0.5);
-
-}
-
-.projects-header {
-  background-image: url("../images/projectpic.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.projects-main-article {
-  display: flex;
-  flex-direction: column;
-}
-/*.projects-main-article {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10% repeat(5, 1fr)
-}
 
 
-.projects-main-title {
-  grid-area: 1 / 1 / span 1 / span 12;
-}*/
 
-.projects-main-title {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
-.projects-main-title p {
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: 0.05rem;
-}
-.projects-secondary-article {
-display: flex;
-flex-direction: column;
-margin-bottom: 2rem;
-}
-/*.projets-secondary-article {
-  grid-area: 2 / 1 / span 5 / span 12;
-}
 
-.projects-shell {
-  display: grid;
-}*/
 
-.projects-shell {
-  display: flex;
-  margin: 0.5rem;
-  /*border-bottom: 1px solid rgb(247, 150, 70);*/
-
-}
-.projects-img {
-  background-color: grey;
-  width: 25%;
-  height: auto;
-  margin: 0.5rem;
-}
-
-.projects-description {
-  padding: 0.5rem;
-  width: 75%;
-}
-.projects-description h2 {
-  font-weight: 700;
-  font-size: 1.2rem;
-  /*margin-bottom: 0.5rem;*/
-}
-
-.projects-description h4 {
-  margin-bottom: 0.5rem;
-}
-
-.projects-description h3 {
-  margin-top: 0.5rem;
-}
-.projects-description a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: rgb(89, 201, 165);
-}
-
-/*Contact Styles*/
-.contact-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
-
-.contact-header h2 {
-  margin-top: 5rem;
-  padding: 0.5rem;
-  float: right;
-  background-color: rgba(255, 255, 255, 0.5);
-
-}
-
-.contact-header {
-  background-image: url("../images/contact-nm-pic.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: cover;
-}
-
-.contact-main-title {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.contact-main-title p {
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: 0.05rem;
-}
-
-.contact-coordinates {
-  padding-left: 2rem;
-  margin-bottom: 2rem;
-}
-
-.contact-coordinates h3 {
-  font-size: 1.2rem;
-}
 /* old bootstrap sytles
 .navbar-brand {
   font-family: 'Libre Baskerville', serif;
