@@ -79,3 +79,10 @@ margin-bottom: 2rem;
   font-size: 1.1rem;
   color: rgb(89, 201, 165);
 }
+
+
+
+.projects-description a:hover {
+  text-decoration: underline;
+  color: rgb(28, 17, 10);
+}

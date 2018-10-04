@@ -55,6 +55,18 @@ background-size: cover;
   padding-left: 0.5rem;
 }
 
+.people-paragraph a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: rgb(89, 201, 165);
+  /*border: 1px solid black;*/
+}
+
+.people-paragraph a:hover {
+  text-decoration: underline;
+  color: rgb(28, 17, 10);
+}
 .people-secondary-article {
   display: flex;
   justify-content: space-between;
