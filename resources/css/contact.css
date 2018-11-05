@@ -14,9 +14,9 @@
 }
 
 .contact-header {
-  background-image: url("../images/contact-nm-pic.png");
+  background-image: url("../images/contact_1.jpg");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center;
   background-size: cover;
 }
 
