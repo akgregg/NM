@@ -16,7 +16,7 @@ body {
   /*rgba(205, 207, 202, 0.1);*/
 }
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ span {
 
 .about-header, .services-header, .people-header,
 .projects-header, .contact-header  {
-  height: 10rem;
+  height: 15rem;
   width: 100%;
   background-color: rgba(91, 108,93, 0.1);
 }
@@ -110,7 +110,7 @@ nav {
 }
 
 .logo h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding-top: 1.5rem;
 }
@@ -157,7 +157,8 @@ li a:hover {
 /*main-banner syles*/
 
 .main-banner {
-background-image: url("../images/communication.jpg");
+/*background-image: url("../images/communication.jpg");*/
+background-image: url("../images/homepage.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
