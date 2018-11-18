@@ -55,18 +55,18 @@ background-size: cover;
   padding-left: 0.5rem;
 }
 
-.people-paragraph a {
+/*.people-paragraph a {
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   color: rgb(89, 201, 165);
-  /*border: 1px solid black;*/
-}
+  /*border: 1px solid black;
+}*/
 
-.people-paragraph a:hover {
+/*.people-paragraph a:hover {
   text-decoration: underline;
   color: rgb(28, 17, 10);
-}
+}*/
 .people-secondary-article {
   display: flex;
   justify-content: space-between;
@@ -90,4 +90,38 @@ background-size: cover;
   /*border-left: 1px solid rgb(247, 150, 70);*/
   padding-left: 0.5rem;
   padding-bottom: 1.5rem;
+}
+
+.buttoncv {
+    background-color: white;
+    color: rgb(89, 201, 165);
+    border: 1px solid rgb(89, 201, 165);
+    border-radius: 4px;
+    padding: 0.25rem 1.25rem;
+    margin-left: .5rem;
+    /*margin: 0.5rem 0.75rem;*/
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttoncv:hover {
+    background-color: rgb(89, 201, 165);
+    color: white;
+}
+
+.buttoncv a {
+  text-decoration: none;
+  color: rgb(89, 201, 165)
+}
+
+.buttoncv a:hover {
+  background-color: rgb(89, 201, 165);
+  color: white;
+  padding: 0.25rem 1rem;
 }

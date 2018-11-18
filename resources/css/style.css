@@ -154,6 +154,12 @@ li a:hover {
   text-decoration: underline;
   color: rgb(89, 201, 165);
 }
+
+li:last-child a:hover {
+  text-decoration: none;
+}
+
+
 /*main-banner syles*/
 
 .main-banner {
