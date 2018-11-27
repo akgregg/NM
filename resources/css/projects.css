@@ -44,8 +44,9 @@ margin-bottom: 2rem;
 .projects-shell {
   display: flex;
   margin: 0.5rem;
-  /*border-bottom: 1px solid rgb(247, 150, 70);*/
+  border: 1px solid rgba(95, 72, 66, 0.3);
   width: 100%;
+
 
 }
 .projects-img {
@@ -63,8 +64,8 @@ margin-bottom: 2rem;
 }
 
 .projects-description {
-  padding: 0.5rem;
-  width: 75%;
+  padding: 1.5rem;
+  width: 100%;
 }
 
 .projets-description p {
