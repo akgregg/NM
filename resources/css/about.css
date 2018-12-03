@@ -1,24 +1,21 @@
 /*About Styles*/
-.about-header h1 {
+/*.about-header h1 {
   font-size: 2rem;
   font-weight: 700;
   padding: 0.5rem;
-}
+}*/
 
 .about-header h2 {
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 5rem;
+  color: rgb(28, 17, 10);
   padding: 0.5rem;
-  float: right;
-  text-align: center;
+  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
+  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
   background-color: rgba(255, 255, 255, 0.5);
 }
 
 .about-header {
-  /*background-image: url("../images/aboutnm-pic.png");*/
-  /*background-position: center;*/
-
   /*mobile version*/
   /*background-image: url("../images/about_1.jpg");
   background-repeat: no-repeat;
@@ -26,15 +23,10 @@
   background-size: 90% 100%;
   max-width: 100%;*/
 /*desktop version*/
-/*background-image: url("../images/IMGP1415.jpg");*/
 background-image: url("../images/about-3.1.jpg");
 background-repeat: no-repeat;
-width: 100%;
-height: 15rem;
 background-size: 100%;
 background-position: 50% 55%;
-/*background-size: 70% 100%;*/
-/*background-position: 50% 55%;*/
 }
 .about-main-article {
   padding: 0.5rem;

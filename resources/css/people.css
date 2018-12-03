@@ -6,16 +6,15 @@ background-position: center;
 background-size: cover;
 }
 
-.people-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
 
 .people-header h2 {
-  padding-top: 5rem;
-  padding-right: 0.5rem;
-  float: right;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(28, 17, 10);
+  padding: 0.5rem;
+  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
+  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .people-main-article {

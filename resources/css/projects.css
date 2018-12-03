@@ -1,14 +1,12 @@
 /*Projects Styles*/
-.projects-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
 
 .projects-header h2 {
-  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(28, 17, 10);
   padding: 0.5rem;
-  float: right;
+  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
+  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
   background-color: rgba(255, 255, 255, 0.5);
 }
 

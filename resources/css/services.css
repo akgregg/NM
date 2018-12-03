@@ -1,21 +1,21 @@
 
 /*Services Styles*/
-.services-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.5rem;
-}
 
 .services-header h2 {
-  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(28, 17, 10);
   padding: 0.5rem;
-  float: right;
+  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
+  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .services-header {
-background-image: linear-gradient(to right, rgba(255,255,255,0.4),
+/*background-image: linear-gradient(to right, rgba(255,255,255,0.4),
 rgba(255,255,255,0.4)),
-url("../images/services.png");
+url("../images/services.png");*/
+background-image: url("../images/services.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
