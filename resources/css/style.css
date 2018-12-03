@@ -1,6 +1,3 @@
-/*google font css code
-font-family: 'Cormorant Garamond', serif;
-*/
 
 /* universal styles */
 
@@ -13,16 +10,11 @@ body {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   background-color: white;
-  /*rgba(205, 207, 202, 0.1);*/
 }
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
-
-  h1 {
-  font-weight: 700;
-  }
 
 span {
   color: rgb(247, 150, 70);
@@ -37,14 +29,12 @@ span {
 .projects-main-content, .contact-main-content   {
   position: relative;
   top: 5rem;
-
-  /*margin-bottom: 5rem;*/
 }
 
 .about-header, .services-header, .people-header,
 .projects-header, .contact-header  {
   height: 15rem;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -56,8 +46,7 @@ span {
  .projects-sup-content, .contact-sup-content {
   display: flex;
   justify-content: space-between;
-  /*border-top: 1px solid rgb(247, 150, 70);*/
-  width: 100%;
+  max-width: 100%;
   height: 7rem;
   margin-bottom: 5rem;
   margin-top: 5rem;
@@ -117,6 +106,23 @@ display: inline-block;
 align-items: center;
 }
 
+/*mobile nav*/
+.fa-bars {
+  color: rgb(28, 17, 10);
+  padding: 0.75rem;
+  font-size: 2rem;
+  margin-top: .75rem;
+
+}
+/*desktop styles*/
+@media only screen and (min-width: 460px) {
+.logo-mobile   {
+    display: none;
+  }
+.nav-links-mobile {
+  display: none;
+}
+}
 /*main-banner syles*/
 
 .main-banner {
@@ -127,7 +133,7 @@ align-items: center;
   position: relative;
   top: 5rem;
   height: 25rem;
-  width: 100%;
+  max-width: 100%;
   border-bottom: 1px inset rgba(95, 72, 66, 0.3);
 }
 
@@ -161,6 +167,70 @@ align-items: center;
     opacity: 1;
   }
 }
+
+/*mobile styles*/
+
+@media only screen and (max-width: 470px) {
+  .container {
+    max-width: 470px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .logo-mobile h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .75rem;
+    margin-top: .75rem;
+
+  }
+  .logo-mobile a {
+    text-decoration: none;
+    color: rgb(28, 17, 10);
+  }
+  .nav-links {
+    display: none;
+  }
+  .main-banner {
+    height: 15rem;
+  }
+  .about-header, .services-header, .people-header,
+  .projects-header, .contact-header  {
+    height: 10rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: rgba(91, 108,93, 0.1);
+  }
+  .homepage-main-content, .about-main-content, .services-main-content, .people-main-content,
+  .projects-main-content, .contact-main-content   {
+    position: relative;
+    top: 5rem;
+    max-width: 100%;
+    display: block;
+  }
+  .homepage-sup-content, .about-sup-content, .people-sup-content,
+   .projects-sup-content, .contact-sup-content {
+     display: flex;
+     justify-content: space-between;
+     max-width: 100%;
+     height: 7rem;
+     margin-bottom: 5rem;
+     margin-top: 5rem;
+  }
+  .sup-content {
+    height: 5rem;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+}
+
 
 .co-state p {
   padding-top: 2.5rem;

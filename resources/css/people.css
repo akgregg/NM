@@ -1,4 +1,5 @@
 /* people sytles */
+
 .people-header {
 background-image: url("../images/projectpic.png");
 background-repeat: no-repeat;
@@ -12,8 +13,6 @@ background-size: cover;
   font-weight: 700;
   color: rgb(28, 17, 10);
   padding: 0.5rem;
-  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
-  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -22,21 +21,18 @@ background-size: cover;
   justify-content: space-between;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  /*border-top: 1px solid rgb(247, 150, 70);*/
 }
 
 .people-img {
   height: auto;
-  width: 30%;
+  max-width: 30%;
   text-align: left;
-  /*border-left: 1px solid rgb(247, 150, 70);
-  padding-left: 0.5rem;*/
 }
 
 .people {
-  height: 10rem;
-  width: 10rem;
-  border: thin solid rgba(95, 72, 66, 0.3);
+  max-height: 10rem;
+  max-width: 10rem;
+  border: 1px solid rgba(95, 72, 66, 0.3);
   margin-bottom: 0.5rem;
   margin-left: 0.5rem;
 }
@@ -49,23 +45,10 @@ background-size: cover;
 
 .people-paragraph {
   height: auto;
-  width: 70%;
-  /*border-left: 1px solid rgb(247, 150, 70);*/
+  max-width: 70%;
   padding-left: 0.5rem;
 }
 
-/*.people-paragraph a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: rgb(89, 201, 165);
-  /*border: 1px solid black;
-}*/
-
-/*.people-paragraph a:hover {
-  text-decoration: underline;
-  color: rgb(28, 17, 10);
-}*/
 .people-secondary-article {
   display: flex;
   justify-content: space-between;
@@ -75,7 +58,7 @@ background-size: cover;
 
 .associates-header {
   height: auto;
-  width: 30%;
+  max-width: 30%;
   text-align: left;
 }
 
@@ -85,8 +68,7 @@ background-size: cover;
 }
 .associates-paragraph {
   height: auto;
-  width: 70%;
-  /*border-left: 1px solid rgb(247, 150, 70);*/
+  max-width: 70%;
   padding-left: 0.5rem;
   padding-bottom: 1.5rem;
 }
@@ -98,12 +80,10 @@ background-size: cover;
     border-radius: 4px;
     padding: 0.25rem 1.25rem;
     margin-left: .5rem;
-    /*margin: 0.5rem 0.75rem;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    /*margin: 4px 2px;*/
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
