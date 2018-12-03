@@ -23,10 +23,10 @@
   background-size: 90% 100%;
   max-width: 100%;*/
 /*desktop version*/
-background-image: url("../images/about-3.1.jpg");
+background-image: url("../images/desk3.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
-background-position: 50% 55%;
+background-position: 70% 65%;
 }
 .about-main-article {
   padding: 0.5rem;
