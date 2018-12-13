@@ -18,11 +18,13 @@ body {
 
 span {
   color: rgb(247, 150, 70);
+  font-weight: 700;
 }
 
 .akg {
   color: rgb(28, 17, 10);
   font-size: 0.8rem;
+  font-weight: 300;
 }
 
 .homepage-main-content, .about-main-content, .services-main-content, .people-main-content,
@@ -119,9 +121,38 @@ align-items: center;
 .logo-mobile, .headline-m, .co-state-m, .sup-content-m {
     display: none;
   }
-.nav-links-mobile {
+.nav-links-mobile, .dd-content-m {
   display: none;
 }
+/*footer styles*/
+
+footer {
+  height: 5rem;
+  width: 100%;
+  border-top: 1px inset rgba(95, 72, 66, 0.3);
+  }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media p {
+  padding-right: .25rem;
+}
+
+.fa-facebook, .fa-linkedin, .fa-twitter-square  {
+  color: rgb(28, 17, 10);
+  padding: 0.25rem;
+}
+
 }
 /*main-banner syles*/
 
@@ -224,7 +255,6 @@ align-items: center;
     position: relative;
     top: 5rem;
     width: 100%;
-    /*padding: 1rem;*/
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -285,18 +315,50 @@ align-items: center;
      display: block;
      text-align: center;
      max-width: 100%;
-     /*margin-bottom: 5rem;
-     margin-top: 5rem;*/
      height: 10rem;
-     border: 1px solid black;
-     /*padding: 1rem;*/
   }
 
 .sup-content-m {
-  border: 1px solid black;
-  padding: 1rem;
+  padding: .5rem;
+}
+.sup-content-m h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
 }
 
+footer {
+  height: 5rem;
+  width: 100%;
+  border-top: 1px inset rgba(95, 72, 66, 0.3);
+  }
+.footer-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.1rem;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.social-media p {
+  padding-right: .25rem;
+}
+
+.fa-facebook, .fa-linkedin, .fa-twitter-square  {
+  color: rgb(28, 17, 10);
+  padding: 0.25rem;
+}
+
+.copyright p {
+  font-size: 0.8rem;
+}
 }
 
 
@@ -360,33 +422,4 @@ align-items: center;
   width: 100px;
   color: rgb(89, 201, 165);
   transition: color 0.3s ease-in, border-bottom 2s ease-in;
-}
-
-/*footer styles*/
-
-footer {
-  height: 5rem;
-  width: 100%;
-  border-top: 1px inset rgba(95, 72, 66, 0.3);
-  }
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 4rem;
-}
-
-.social-media {
-  display: flex;
-  align-items: center;
-}
-
-.social-media p {
-  padding-right: .25rem;
-}
-
-.fa-facebook, .fa-linkedin, .fa-twitter-square  {
-  color: rgb(28, 17, 10);
-  padding: 0.25rem;
 }
