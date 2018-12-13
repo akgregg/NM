@@ -115,7 +115,7 @@ align-items: center;
 
 }
 /*desktop styles*/
-@media only screen and (min-width: 470px) {
+@media only screen and (min-width: 500px) {
 .logo-mobile, .headline-m, .co-state-m, .sup-content-m {
     display: none;
   }
@@ -170,7 +170,7 @@ align-items: center;
 
 /*mobile styles*/
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 500px) {
   .container {
     max-width: 470px;
     margin: 0 auto;
