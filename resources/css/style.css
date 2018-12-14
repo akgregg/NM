@@ -38,8 +38,8 @@ span {
   height: 15rem;
   max-width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(91, 108,93, 0.1);
 }
 
@@ -136,7 +136,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .social-media {
@@ -168,14 +168,27 @@ footer {
   border-bottom: 1px inset rgba(95, 72, 66, 0.3);
 }
 
+.title {
+  position: relative;
+  top: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.title h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
 .headline {
   position: relative;
   top: 5rem;
   width: 100%;
-  padding: 1rem;
+  padding-top: 1rem;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .headline p {
@@ -186,7 +199,7 @@ footer {
   animation-delay: 2s;
   animation-name: fadeIn;
   animation-iteration-count: 1;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 0.5rem;
 }
 

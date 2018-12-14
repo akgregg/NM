@@ -1,15 +1,15 @@
 
 /*Services Styles*/
 
-.services-header h2 {
+/*.services-header h2 {
   font-size: 2rem;
   font-weight: 700;
   color: rgb(28, 17, 10);
   padding: 0.5rem;
   /*border-top: 1px solid rgba(95, 72, 66, 0.3);
-  border-right: 1px solid rgba(95, 72, 66, 0.3);*/
+  border-right: 1px solid rgba(95, 72, 66, 0.3);
   background-color: rgba(255, 255, 255, 0.5);
-}
+}*/
 
 .services-header {
 /*background-image: linear-gradient(to right, rgba(255,255,255,0.4),
@@ -19,7 +19,17 @@ background-image: url("../images/services.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+}
 
+.services-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.5rem;
+  /*background-color: rgba(255, 255, 255, 0.0);
+  border: 1px solid rgb(247, 150, 70);
+  outline: 1px solid rgb(247, 150, 70);
+  outline-offset: 2px;*/
 }
 .core-services {
   display: flex;

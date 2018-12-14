@@ -2,14 +2,19 @@
 
 .about-header h2 {
   font-size: 2rem;
+  letter-spacing: 0.2rem;
   font-weight: 700;
   color: rgb(28, 17, 10);
-  padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 1px solid rgb(247, 150, 70);
+  outline: 1px solid rgb(247, 150, 70);
+  outline-offset: 2px;
 }
 
 .about-header {
-background-image: url("../images/desk3.jpg");
+background-image: linear-gradient(to right, rgba(255,255,255,0.2),
+rgba(255,255,255,0.3)), url("../images/desk3.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 background-position: 70% 65%;
