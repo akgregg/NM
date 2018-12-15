@@ -11,9 +11,9 @@
 }
 
 .contact-header {
-  background-image: url("../images/contact-3.jpg");
+  background-image: url("../images/contact.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 55% 30%;
   background-size: cover;
 }
 
