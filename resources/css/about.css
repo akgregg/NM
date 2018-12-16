@@ -1,25 +1,46 @@
 /*About Styles*/
 
 .about-header h2 {
-  font-size: 2rem;
+  font-size: 1.1rem;
+  font-weight: 300;
   letter-spacing: 0.2rem;
-  font-weight: 700;
   color: rgb(28, 17, 10);
-  padding: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.0);
-  border: 1px solid rgb(247, 150, 70);
-  outline: 1px solid rgb(247, 150, 70);
-  outline-offset: 2px;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*mobile style for title
+.about-header h2 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  color: rgb(255,255,255);
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 1px solid rgb(255,255,255);
+  outline: 1px solid rgb(255,255,255);
+  outline-offset: 2px;
+}*/
+
 .about-header {
-background-image: linear-gradient(to right, rgba(255,255,255,0.2),
-rgba(255,255,255,0.3)), url("../images/desk4.jpg");
+background-image: linear-gradient(to right, rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)), url("../images/desk4.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 background-position: 70% 65%;
 }
 
+.about-title h2 {
+padding: 1.5rem;
+border-top-style:double;
+border-bottom-style:double;
+padding-top:5px;
+padding-bottom:5px;
+border-top-color: rgb(247, 150, 70);
+border-bottom-color: rgb(247, 150, 70);
+border-top-width:4px;
+border-bottom-width:4px;
+}
 .about-main-article {
   padding: 0.5rem;
 }

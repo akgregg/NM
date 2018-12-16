@@ -9,6 +9,7 @@ body {
   color: rgb(28, 17, 10);
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
+  letter-spacing: 0.05rem;
   background-color: white;
 }
 .container {
@@ -38,11 +39,20 @@ span {
   height: 15rem;
   max-width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   background-color: rgba(91, 108,93, 0.1);
 }
 
+.about-title, .services-title, .people-title,
+.projects-title, .contact-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  padding: 1.5rem;
+}
 
 .homepage-sup-content, .about-sup-content, .people-sup-content,
  .projects-sup-content, .contact-sup-content {
@@ -87,6 +97,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 700;
   padding-top: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .logo a {
@@ -178,7 +189,7 @@ footer {
 .title h2 {
   font-size: 1.5rem;
   font-weight: 500;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.2rem;
   text-align: center;
 }
 .headline {
@@ -193,7 +204,7 @@ footer {
 
 .headline p {
   font-size: 1.1rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.2rem;
   font-weight: 300;
   animation-duration: 8s;
   animation-delay: 2s;
@@ -397,6 +408,7 @@ footer {
   outline: none;
   font-weight: 700;
   font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   text-decoration: none;
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
@@ -422,6 +434,7 @@ footer {
   outline: none;
   font-weight: 300;
   font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   text-decoration: none;
   transition: color 0.3s ease-out, border-bottom 2s ease-out;
 }

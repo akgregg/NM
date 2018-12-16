@@ -1,35 +1,38 @@
 
 /*Services Styles*/
 
-/*.services-header h2 {
-  font-size: 2rem;
-  font-weight: 700;
+.services-header h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
   color: rgb(28, 17, 10);
   padding: 0.5rem;
-  /*border-top: 1px solid rgba(95, 72, 66, 0.3);
-  border-right: 1px solid rgba(95, 72, 66, 0.3);
   background-color: rgba(255, 255, 255, 0.5);
-}*/
+}
 
 .services-header {
 /*background-image: linear-gradient(to right, rgba(255,255,255,0.4),
 rgba(255,255,255,0.4)),
 url("../images/services.png");*/
-background-image: url("../images/services.png");
+background-image: linear-gradient(to right, rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)), url("../images/services.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+justify-content: flex-end;
+align-items: flex-end;
 }
 
-.services-title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.5rem;
-  /*background-color: rgba(255, 255, 255, 0.0);
-  border: 1px solid rgb(247, 150, 70);
-  outline: 1px solid rgb(247, 150, 70);
-  outline-offset: 2px;*/
+.services-title h2 {
+padding: 1.5rem;
+border-top-style:double;
+border-bottom-style:double;
+padding-top:5px;
+padding-bottom:5px;
+border-top-color: rgb(247, 150, 70);
+border-bottom-color: rgb(247, 150, 70);
+border-top-width:4px;
+border-bottom-width:4px;
 }
 .core-services {
   display: flex;
