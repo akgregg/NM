@@ -44,15 +44,22 @@ border-bottom-width:4px;
 .contact-main-article {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
   height: 20rem;
 }
 .contact-coordinates {
-  padding-left: 2rem;
+  display: flex;
+  /*padding-left: 2rem;*/
   margin-bottom: 2rem;
-  margin-top: 2rem;
-}
+  margin-top: 1rem;
+  justify-content: center;
+/*  border: 1px solid rgba(95, 72, 66, 0.3);*/
+  padding: 2rem;
+  }
 
+.cd {
+  padding-left: 2rem;
+}
 .contact-coordinates h3 {
   font-size: 1.5rem;
 }

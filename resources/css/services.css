@@ -45,8 +45,8 @@ border-bottom-width:4px;
   display: inline-block;
   height: auto;
   width: 46%;
-  border-left: 1px solid rgb(247, 150, 70);
-  margin: 1rem;
+  border-left: 1px solid rgba(95, 72, 66, 0.3);
+  margin: 1rem 0;
 }
 
 .services h3 {
