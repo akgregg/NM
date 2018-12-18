@@ -3,7 +3,7 @@
 
 .services-header h2 {
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.2rem;
   color: rgb(28, 17, 10);
   padding: 0.5rem;
@@ -51,7 +51,7 @@ border-bottom-width:4px;
 
 .services h3 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
