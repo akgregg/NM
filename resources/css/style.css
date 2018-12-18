@@ -128,7 +128,7 @@ align-items: center;
 
 }
 /*desktop styles*/
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 470px) {
 .logo-mobile, .headline-m, .co-state-m, .sup-content-m {
     display: none;
   }
@@ -225,12 +225,12 @@ footer {
 
 /*mobile styles*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 470px) {
   .container {
     max-width: 470px;
     margin: 0 auto;
   }
-  .logo, .headline, .sup-content {
+  .logo, .headline, .sup-content, .title {
     display: none;
   }
   .logo-mobile {
