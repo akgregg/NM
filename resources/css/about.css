@@ -42,11 +42,11 @@ border-top-width:4px;
 border-bottom-width:4px;
 }
 .about-main-article {
-  padding: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .about-main-article p {
-padding-top: 1.5rem;
+padding-top: 1rem;
 font-size: 1.1rem;
 font-weight: 300;
 text-align: justify;

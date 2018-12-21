@@ -38,11 +38,12 @@ border-bottom-width:4px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 .services {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: 46%;
   border-left: 1px solid rgba(95, 72, 66, 0.3);

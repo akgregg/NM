@@ -18,6 +18,7 @@
 }
 
 .projects-title h2 {
+padding: 1.5rem;
 border-top-style:double;
 border-bottom-style:double;
 padding-top:5px;
@@ -31,10 +32,11 @@ border-bottom-width:4px;
 .projects-main-article {
   display: flex;
   flex-direction: column;
+
 }
 
 .projects-main-title {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 

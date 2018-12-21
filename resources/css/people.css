@@ -28,7 +28,6 @@ align-items: flex-end;
 }
 
 .people-title h2 {
-  /*background-color: rgba(255, 255, 255, 0.0);*/
   padding: 1.5rem;
   border-top-style:double;
 border-bottom-style:double;
@@ -43,8 +42,8 @@ border-bottom-width:4px;
 .people-main-article {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
+  margin-top: 1rem;
+
 }
 
 .people-img {
@@ -60,7 +59,7 @@ border-bottom-width:4px;
   max-width: 10rem;
   border: 1px solid rgba(95, 72, 66, 0.3);
   margin-bottom: 0.5rem;
-  margin-left: 0.5rem;
+  margin-left: 0rem;
 }
 
 .people-img h3 {
