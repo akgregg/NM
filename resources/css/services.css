@@ -10,17 +10,27 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.services-header {
-/*background-image: linear-gradient(to right, rgba(255,255,255,0.4),
-rgba(255,255,255,0.4)),
-url("../images/services.png");*/
+.services-header, .services-header-m {
 background-image: linear-gradient(to right, rgba(0,0,0,0.5),
 rgba(0,0,0,0.5)), url("../images/services.png");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-justify-content: flex-end;
-align-items: flex-end;
+}
+
+.services-header-m h2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2.5rem;
+  border-top-style:double;
+  border-bottom-style:double;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top-color: rgb(247, 150, 70);
+  border-bottom-color: rgb(247, 150, 70);
+  border-top-width:4px;
+  border-bottom-width:4px;
+  width: 100%;
+  text-align: center;
 }
 
 .services-title h2 {
@@ -34,6 +44,7 @@ border-bottom-color: rgb(247, 150, 70);
 border-top-width:4px;
 border-bottom-width:4px;
 }
+
 .core-services {
   display: flex;
   justify-content: space-between;
@@ -64,4 +75,28 @@ ul.a {
 ul.a li {
   padding-bottom: 1rem;
   margin-left: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .core-services {
+    display: block;
+    margin: 0 2rem;
+  }
+
+  .services {
+    width: 100%;
+    margin: 1rem;
+    border-left: none;
+  }
+
+  .services h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem;
+  }
 }

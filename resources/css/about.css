@@ -9,20 +9,7 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/*mobile style for title
-.about-header h2 {
-  font-size: 2rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
-  color: rgb(255,255,255);
-  padding: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.0);
-  border: 1px solid rgb(255,255,255);
-  outline: 1px solid rgb(255,255,255);
-  outline-offset: 2px;
-}*/
-
-.about-header {
+.about-header, .about-header-m {
 background-image: linear-gradient(to right, rgba(0,0,0,0.5),
 rgba(0,0,0,0.5)), url("../images/desk4.jpg");
 background-repeat: no-repeat;
@@ -41,8 +28,9 @@ border-bottom-color: rgb(247, 150, 70);
 border-top-width:4px;
 border-bottom-width:4px;
 }
+
 .about-main-article {
-  padding: 0 0.5rem;
+  padding: 0 0.75rem;
 }
 
 .about-main-article p {

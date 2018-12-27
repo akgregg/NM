@@ -51,9 +51,8 @@ span {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0.75rem;
 }
-
 
 .homepage-sup-content, .about-sup-content, .people-sup-content,
  .projects-sup-content, .services-sup-content {
@@ -67,28 +66,7 @@ span {
   padding: 0 0.75rem;
   }
 
-/*.services-sup-content {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  height: 3rem;
-  padding: 0 0.75rem;
-}*/
-/*.homepage-sup-content {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  height: 7rem;
-  position: relative;
-  top: 5rem;
-  padding: 0 0.75rem;
-  /*margin-bottom: 5rem;
-  margin-top: 5rem;
-  padding: 0 0.75rem;
-}*/
-
 .sup-content {
-  /*height: 5rem;*/
   width: 50%;
   margin-top: 1rem;
 }
@@ -103,6 +81,7 @@ span {
   margin: 0 auto;
   max-width: 100%;
 }
+
 /*header styles */
 
 header {
@@ -166,16 +145,16 @@ align-items: center;
   padding: 0.75rem;
   font-size: 2rem;
   margin-top: .75rem;
-
 }
+
 /*desktop styles*/
 @media only screen and (min-width: 950px) {
-.logo-mobile, .headline-m, .co-state-m, .sup-content-m {
-    display: none;
-  }
-.nav-links-mobile, .dd-content-m {
+.logo-mobile, .headline-m, .co-state-m, .sup-content-m, .about-header-m,
+.services-header-m, .people-header-m,
+  .projects-header-m, .contact-header-m, .nav-links-mobile, .dd-content-m {
   display: none;
 }
+
 /*footer styles*/
 
 footer {
@@ -217,8 +196,9 @@ footer {
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
   }
-
-
+  .copyright-m {
+    display: none;
+  }
 }
 /*main-banner syles*/
 
@@ -247,6 +227,7 @@ footer {
   letter-spacing: 0.2rem;
   text-align: center;
 }
+
 .headline {
   position: relative;
   top: 5rem;
@@ -277,6 +258,7 @@ footer {
     opacity: 1;
   }
 }
+
 /*Tablet styles*/
 @media only screen and (min-width: 500px) and (max-width: 950px) {
   .container {
@@ -285,7 +267,9 @@ footer {
     margin: 0 auto;
   }
 
-  .logo, .nav-links, .headline-m, .co-state-m, .sup-content {
+  .logo, .nav-links, .headline-m, .co-state-m, .sup-content, .about-header-m,
+  .services-header-m, .people-header-m,
+  .projects-header-m, .contact-header-m {
     display: none;
   }
 
@@ -298,6 +282,7 @@ footer {
   align-items: center;
   margin-bottom: 2rem;
 }
+
   .sup-content-m {
     display: block;
     padding: 0rem 1rem;
@@ -308,6 +293,7 @@ footer {
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
+
   .main-banner {
     height: 20rem;
   }
@@ -328,6 +314,7 @@ footer {
       align-items: center;
       padding: 1rem 0.1rem;
     }
+
     .social-media {
       display: flex;
       align-items: center;
@@ -350,6 +337,11 @@ footer {
       font-size: 0.8rem;
       letter-spacing: 0.1rem;
     }
+
+    .copyright-m {
+      display: none;
+    }
+
   /* Dropdown content (hidden by default) */
   .dd-content-m {
     display: none;
@@ -389,14 +381,15 @@ footer {
     max-width: 500px;
     margin: 0 auto;
   }
-  .logo, .headline, .sup-content, .title, .nav-links, .co-state {
+
+  .logo, .headline, .sup-content, .title, .nav-links, .co-state, .about-header,
+  .services-header, .people-header, .projects-header, .contact-header {
     display: none;
   }
+
   .logo-mobile {
     display: block;
   }
-
-
 
   /* Dropdown content (hidden by default) */
   .dd-content-m {
@@ -441,19 +434,52 @@ footer {
   .headline-m p {
     font-size: 1.1rem;
     letter-spacing: 0.05rem;
-    font-weight: 300;
+    font-weight: 500;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 0.5rem;
   }
-
 
   .main-banner {
     height: 15rem;
   }
 
+  .about-header-m, .services-header-m, .people-header-m, .projects-header-m,
+  .contact-header-m {
+  font-size: 2.3rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  padding: 1.5rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  max-width: 100%;
+  }
+
+  .about-header-m h2 {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2.5rem;
+    border-top-style:double;
+    border-bottom-style:double;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top-color: rgb(247, 150, 70);
+    border-bottom-color: rgb(247, 150, 70);
+    border-top-width:4px;
+    border-bottom-width:4px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-title, .services-title, .people-title,
+  .projects-title, .contact-title {
+    display: none;
+  }
+
 .co-state-m {
   display: block;
 }
+
   .co-state-m p {
     padding-top: 2.5rem;
     padding-left: .75rem;
@@ -462,16 +488,6 @@ footer {
     font-weight: 300;
     letter-spacing: 0.05rem;
     text-align: center;
-  }
-
-  .about-header, .services-header, .people-header,
-  .projects-header, .contact-header  {
-    height: 10rem;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    background-color: rgba(91, 108,93, 0.1);
   }
 
   .homepage-main-content, .about-main-content, .services-main-content, .people-main-content,
@@ -483,7 +499,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .homepage-sup-content, .about-sup-content, .people-sup-content,
+  .homepage-sup-content, .about-sup-content, .services-sup-content, .people-sup-content,
    .projects-sup-content, .contact-sup-content {
      display: block;
      text-align: center;
@@ -494,6 +510,7 @@ footer {
 .sup-content-m {
   padding: .5rem;
 }
+
 .sup-content-m h3 {
   font-weight: 500;
   font-size: 1.2rem;
@@ -507,6 +524,7 @@ footer {
   top: 10rem;
   border-top: 1px inset rgba(95, 72, 66, 0.3);
   }
+
 .footer-content {
   display: flex;
   flex-direction: column-reverse;
@@ -515,6 +533,7 @@ footer {
   align-items: center;
   padding: 1rem 0.1rem;
 }
+
 .social-media {
   display: flex;
   align-items: center;
@@ -531,11 +550,16 @@ footer {
   padding: 0.25rem;
 }
 
-.copyright p {
-  font-size: 0.8rem;
-}
+.copyright {
+  display: none;
 }
 
+.copyright-m p {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+}
+}
 
 .co-state p {
   padding-top: 2.5rem;
